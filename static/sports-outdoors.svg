@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 146.7 122.3" style="enable-background:new 0 0 146.7 122.3;" xml:space="preserve">
+<style type="text/css">
+	.Drop_x0020_Shadow{fill:none;}
+	.Outer_x0020_Glow_x0020_5_x0020_pt{fill:none;}
+	.Blue_x0020_Neon{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}
+	.Chrome_x0020_Highlight{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;}
+	.Jive_GS{fill:#FFDD00;}
+	.Alyssa_GS{fill:#A6D0E4;}
+	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{fill:#F68C1E;stroke:#C16028;stroke-width:1.2371;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#C16028;stroke-width:1.2371;stroke-miterlimit:10;}
+	.st3{fill:#616162;}
+	.st4{fill:#333333;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="56.9164" y1="45.4187" x2="56.9164" y2="44.4187">
+	<stop  offset="0" style="stop-color:#656565"/>
+	<stop  offset="0.618" style="stop-color:#1B1B1B"/>
+	<stop  offset="0.6292" style="stop-color:#545454"/>
+	<stop  offset="0.9831" style="stop-color:#3E3E3E"/>
+</linearGradient>
+<g id="XMLID_15_">
+	<rect id="XMLID_30_" x="0.5" y="0" class="st0" width="145.7" height="121.3"/>
+	<g id="XMLID_16_">
+		<g id="XMLID_24_">
+			<circle id="XMLID_29_" class="st1" cx="86.7" cy="56.7" r="26"/>
+			<line id="XMLID_28_" class="st2" x1="86.7" y1="30.7" x2="86.7" y2="82.7"/>
+			<line id="XMLID_27_" class="st2" x1="112.7" y1="56.7" x2="60.7" y2="56.7"/>
+			<path id="XMLID_26_" class="st2" d="M70.4,36.5c0,0,7.8,7.4,7.8,20.2s-7.8,20.2-7.8,20.2"/>
+			<path id="XMLID_25_" class="st2" d="M103.2,36.5c0,0-7.8,7.4-7.8,20.2s7.8,20.2,7.8,20.2"/>
+		</g>
+		<g id="XMLID_17_">
+			<path id="XMLID_23_" d="M78.7,53v-5.8h-4.5v14.6H47.4V47.2h-4.5V53h-4.5v8.7H34v5.8h4.5l0,8.7h4.5v5.8h4.5V67.6h26.8v14.6h4.5
+				v-5.8h4.5v-8.7h4.5v-5.8h-4.5V53L78.7,53z"/>
+			<rect id="XMLID_22_" x="47.4" y="61.7" class="st3" width="26.8" height="5.8"/>
+			<rect id="XMLID_21_" x="34" y="61.7" class="st3" width="4.5" height="5.8"/>
+			<rect id="XMLID_20_" x="83.1" y="61.7" class="st3" width="4.5" height="5.8"/>
+			<rect id="XMLID_19_" x="38.5" y="53" class="st4" width="4.5" height="23.3"/>
+			<rect id="XMLID_18_" x="78.7" y="53" class="st4" width="4.5" height="23.4"/>
+		</g>
+	</g>
+</g>
+</svg>
