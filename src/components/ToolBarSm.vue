@@ -5,8 +5,15 @@
       persistent
       :mini-variant="mini"
       v-model="drawer"
-      clipped
+
     >
+    <v-divider style="height: 56px; background-color: #dcdcdc">
+      </v-divider>
+    <v-list-tile value="true">
+      <v-list-tile-content>
+              <v-list-tile-title> Barrel On</v-list-tile-title>
+            </v-list-tile-content>
+    </v-list-tile>
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -14,19 +21,42 @@
         >
           <v-list-tile value="true">
             <v-list-tile-action>
-              <v-icon light v-html="item.icon"></v-icon>
+              <v-icon id="nav-drawer-icon" light v-html="item.icon"></v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
-              <v-list-tile-title v-text="item.title"></v-list-tile-title>
+              <v-list-tile-title id="nav-drawer-title" v-text="item.title"></v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list-item>
       </v-list>
+      <v-divider style="height: 200px">
+      </v-divider>
+        <v-list-tile value="true">
+            <v-list-tile-action>
+              <i id="nav-drawer-icon" class="material-icons">settings</i>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title id="nav-drawer-title">Settings</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+
+          <v-list-tile value="true">
+            <v-list-tile-action>
+              <i id="nav-drawer-icon" class="material-icons">info_outline</i>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title id="nav-drawer-title">About</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+
     </v-navigation-drawer>
     <v-toolbar fixed style='background-color: #ffffff'>
       <v-toolbar-side-icon id='hamburger' @click.native.stop="drawer = !drawer" dark></v-toolbar-side-icon>
-      
-      <v-toolbar-title id='logo' v-text="title"></v-toolbar-title>
+        
+      <v-toolbar-title id='logo'><router-link to='/'
+      style="font-family: 'Product Sans';
+      color: #607D8B !important;"
+      >Barrel On</router-link></v-toolbar-title>
 
       <v-list-tile-action><v-btn id="start-earning-btn-sm" light flat>Start Earning</v-btn></v-list-tile-action>
     </v-toolbar>
@@ -41,8 +71,11 @@
         drawer: null,
         fixed: false,
         items: [
-          { icon: 'whatshot', title: 'Featured' },
-          { icon: 'explore', title: 'Explore' }
+          { icon: 'home', title: 'Home' },
+          { icon: 'store', title: 'Featured Shops' },
+          { icon: 'list', title: 'Shopping list' },
+          { icon: 'shopping_basket', title: 'Quick reorder' },
+          { icon: 'restore', title: 'Orders' }
         ],
         title: 'Barrel On',
         mini: false,
@@ -61,16 +94,18 @@
   #hamburger {
     color:#607D8B;
   }
-  .toolbar .input-group--dark .icon {
-    color: #607D8B !important;
-  }
   .navigation-drawer--dark {
-    background: #2979FF !important;
+    background: #fafafa !important;
+  }
+  #nav-drawer-icon {
+    color: #212121 !important;
+    font-size: 18px;
+  }
+  #nav-drawer-title{
+    color: #212121 !important;
+    font-size: 11px;
   }
 
-  .navigation-drawer > .list .list__tile--active > *:first-child .icon {
-    color: #ffffff !important;
-  }
   #start-earning-btn-sm {
     background-color: #10B6A0 !important;
   }

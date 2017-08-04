@@ -4,6 +4,7 @@
    <appHomeBannerSm class="hidden-md-and-up"></appHomeBannerSm>
    <appHomeMain class="hidden-sm-and-down"></appHomeMain>
    <appHomeFeaturedGiver class="hidden-sm-and-down"></appHomeFeaturedGiver>
+   <appHomeFeaturedProducts class="hidden-sm-and-down"></appHomeFeaturedProducts>
   </v-app>
 </template>
 
@@ -12,12 +13,14 @@
   import HomeBannerSm from './HomeBannerSm.vue'
   import HomeMain from './HomeMain.vue'
   import HomeFeaturedGiver from './HomeFeaturedGiver.vue'
+  import HomeFeaturedProducts from './HomeFeaturedProducts.vue'
   export default {
     components: {
       appHomeBanner: HomeBanner,
       appHomeBannerSm: HomeBannerSm,
       appHomeMain: HomeMain,
-      appHomeFeaturedGiver: HomeFeaturedGiver
+      appHomeFeaturedGiver: HomeFeaturedGiver,
+      appHomeFeaturedProducts: HomeFeaturedProducts
     }
   }
 </script>

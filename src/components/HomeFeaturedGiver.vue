@@ -46,6 +46,8 @@
   }
 </script>
 
+
+
 <style lang="stylus">
   @import '../stylus/main'
   #home-main-card-lg {
@@ -62,7 +64,7 @@
  #home-featured-giver-lg-card {
   padding: 10px;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
  }
  #verified-icon {
  color: #2979FF !important;

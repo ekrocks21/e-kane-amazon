@@ -15,23 +15,25 @@
                 <v-card-title id="start-earning-lg-new-user-card-title">Welcome to Barrel On</v-card-title>
               </v-card-row>
               <v-card-row>
+                <div id="fb-login" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+              </v-card-row>
+              <v-card-row>
                 <v-card-text>
                   <v-text-field 
-                  label="email" 
-                  required
+                  label="Email" 
                   v-model.lazy='userData.email'>
                 
                   </v-text-field>
                   <v-text-field 
                   label="Password" 
                   type="password" 
-                  required
                   v-model.lazy='userData.password'>
                 
                     
                   </v-text-field>
                 </v-card-text>
               </v-card-row>
+              
               <v-card-row actions>
                 <v-btn class="blue--text darken-1" flat @click.native="dialog = false">Close</v-btn>
                 <v-btn class="blue--text darken-1" flat @click.native="dialog = false">Save</v-btn>
@@ -80,6 +82,9 @@
   }
   #start-earning-lg-new-user-card-title {
     font-family: 'Product Sans';
+  }
+  #fb-login {
+    margin: 0 auto;
   }
 
 </style>
