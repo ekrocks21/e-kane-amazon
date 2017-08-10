@@ -2,7 +2,7 @@
  <main id='appHomeMain'>
       <v-container fluid>
         <v-layout id="home-featured-products-layout-lg" row wrap>
-          <v-flex xs3
+          <v-flex xs12
           v-for="(item, i) in items"
           :key="i">
             <v-card 

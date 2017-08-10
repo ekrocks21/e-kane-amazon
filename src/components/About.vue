@@ -4,7 +4,7 @@
         <div id="about-write-up-div"> 
          <h2 id="about-title"> Our Mission </h2>
         
-         <p id="about-write-up"><i id="light-bulb" class="material-icons">lightbulb_outline</i> Make it really easy for <i class="material-icons">people_outline</i> to earn <i id="money-icon" class="material-icons">attach_money</i> for causes they <i id="love-icon" class="material-icons">favorite_border</i></p>
+         <p id="about-write-up"><i id="light-bulb" class="material-icons">lightbulb_outline</i> Make it really easy for <i id="people-icon" class="material-icons">people_outline</i> to earn <i id="money-icon" class="material-icons">attach_money</i> for causes they <i id="love-icon" class="material-icons">favorite_border</i></p>
         </div> 
 
          <router-link to="howitworks">  <v-btn id='start-earning-about-btn-lg' light raised>Start Earning</v-btn></router-link>
@@ -80,12 +80,18 @@
   }
   #love-icon {
     color: #D32F2F;
+    font-size: 60px;
   }
   #light-bulb {
     color: #fbc02d;
+    font-size: 40px;
   }
   #money-icon {
     color: #10b6a0;
+    font-size: 40px;
+  }
+  #people-icon {
+    font-size: 40px;
   }
 
 </style>
